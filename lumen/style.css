@@ -25,17 +25,23 @@ body {
 }
 
 .img {
-  width: 100%;
+  width: 100vh;
   margin: 1rem 0rem 0rem 2rem;
 }
 
 .img img {
   width: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 .company-info {
   width: 100%;
   margin-right: 4rem;
+  margin-left: 4rem;
 }
 
 .company-info span {
